@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Iot Coffee</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="token_storage">token_storage</string>
+    <string name="email_storage">email_storage</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="online">Your coffee maker is online and ready to go.</string>
+    <string name="offline">We’re having some trouble connecting to your coffee maker.</string>
+    <string name="set_url">Set the URL your coffee maker can be found at!</string>
+    <string name="brew">Brew</string>
+    <string name="set_url_button_text">Set URL</string>
+    <string name="retry">Retry</string>
+    <string name="loading_message">Loading your coffee ☕️</string>
+</resources>
