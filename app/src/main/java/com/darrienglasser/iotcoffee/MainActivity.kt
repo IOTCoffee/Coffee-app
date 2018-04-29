@@ -59,8 +59,12 @@ class MainActivity : AppCompatActivity() {
     private fun rLogin(lModel: LoginModel) {
         val email = email_input.text.toString()
         val pw = password_input.text.toString()
-        val fName = first_name_input.text.toString()
-        val lName = last_name_input.text.toString()
+        val repw = reenter_password_input.text.toString()
+
+        if (repw != pw) {
+            reenter_password_input.error = "Passwords do not match!"
+            return
+        }
 
         lModel.register(email, pw).enqueue(object : Callback<Msg> {
             override fun onFailure(call: Call<Msg>, t: Throwable) {
@@ -83,10 +87,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
-
-        // Run the register function, then call login from it
-        // login() put here for convenience
-        login(lModel)
     }
 
     private fun login(lModel: LoginModel) {

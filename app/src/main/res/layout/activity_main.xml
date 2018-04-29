@@ -88,29 +88,13 @@
                 android:gravity="center">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/first_name_input"
+                    android:id="@+id/reenter_password_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="16dp"
-                    android:drawableStart="@drawable/ic_face"
+                    android:drawableStart="@drawable/ic_lock_reenter"
                     android:gravity="center_vertical"
                     android:hint="First Name"
-                    android:inputType="textPassword" />
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center">
-
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/last_name_input"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawablePadding="16dp"
-                    android:drawableStart="@drawable/ic_pencil"
-                    android:gravity="center_vertical"
-                    android:hint="Last Name"
                     android:inputType="textPassword" />
             </android.support.design.widget.TextInputLayout>
 

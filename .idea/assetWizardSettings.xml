@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_explore_black_48px" />
-                            <entry key="sourceFile" value="$USER_HOME$/Downloads/ic_explore_black_48px.svg" />
+                            <entry key="outputName" value="ic_lock_reenter" />
+                            <entry key="sourceFile" value="$USER_HOME$/Downloads/ic_lock_outline_black_48px.svg" />
                           </map>
                         </option>
                       </PersistentState>
