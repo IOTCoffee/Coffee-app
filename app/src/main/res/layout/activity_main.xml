@@ -94,7 +94,7 @@
                     android:drawablePadding="16dp"
                     android:drawableStart="@drawable/ic_lock_reenter"
                     android:gravity="center_vertical"
-                    android:hint="First Name"
+                    android:hint="Reenter Password"
                     android:inputType="textPassword" />
             </android.support.design.widget.TextInputLayout>
 
